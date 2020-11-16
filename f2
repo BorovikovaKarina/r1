@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, x, y;
+    cout << "Enter values for the variables а, х, у: ";
+    cin >> a >> x >> y;
+    cout << "One kilogram of candies costs: " << a/x << endl;
+    cout << "Y kilograms of candies cost: " << (a/x)*y << endl;
+    cin.get(); cin.get();
+    return 0;
+}
