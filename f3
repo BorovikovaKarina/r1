@@ -1,1 +1,22 @@
 //begin 28
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, an, an1;
+    cout << "Enter values for the variable a: ";
+    cin >> a;
+    an = a * a;
+    cout << "A^2= " << an << endl;
+    an1 = an * a;
+    cout << "A^3= " << an1 << endl;
+    an1 = an * an1;
+    cout << "A^5= " << an1 << endl;
+    an = an1 * an1;
+    cout << "A^10= " << an << endl;
+    an1 = an * an1;
+    cout << "A^15= " << an1 << endl;
+    cin.get(); cin.get();
+    return 0;
+}
