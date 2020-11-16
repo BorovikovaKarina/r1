@@ -1,1 +1,13 @@
+#include <iostream>
+using namespace std;
 
+int main()
+{
+    int k;
+    cout << "The first of January was a Monday ";
+    cout << "K= ";
+    cin >> k;
+    cout << k << "day of the year corresponds to " << k % 7 << endl;
+    cin.get(); cin.get();
+    return 0;
+}
