@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int k;
-    cout << "The first of January was a Tuesday ";
+    cout << "The first of January was a Tuesday \n";
     cout << "K= ";
     cin >> k;
     cout << k << " day of the year corresponds to " << (k+1) % 7 << endl;
