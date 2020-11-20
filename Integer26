@@ -8,6 +8,5 @@ int main()
     cout << "K= ";
     cin >> k;
     cout << k << " day of the year corresponds to " << (k+1) % 7 << endl;
-    cin.get(); cin.get();
     return 0;
 }
