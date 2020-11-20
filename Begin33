@@ -9,6 +9,5 @@ int main()
     cin >> a >> x >> y;
     cout << "One kilogram of candies costs: " << a/x << endl;
     cout << "Y kilograms of candies cost: " << (a/x)*y << endl;
-    cin.get(); cin.get();
     return 0;
 }
