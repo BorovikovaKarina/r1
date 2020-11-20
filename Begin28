@@ -17,6 +17,5 @@ int main()
     cout << "A^10= " << an << endl;
     an1 = an * an1;
     cout << "A^15= " << an1 << endl;
-    cin.get(); cin.get();
     return 0;
 }
